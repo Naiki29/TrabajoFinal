@@ -1,0 +1,71 @@
+
+title{
+    
+}
+
+h1{
+    text-align: center;
+    text-shadow: antiquewhite;
+    
+
+}
+
+h2{
+color: rgb(134, 33, 104);
+}
+
+h3{
+    color:palevioletred;
+}
+
+header{ background-color: palevioletred;
+color:papayawhip;
+padding: 0.5%;
+border-radius: 3%;
+}
+
+.Bar{
+    background-color:rgb(134, 33, 104);
+    color: white;
+    text-decoration: none;
+    padding: 0.5%;
+    margin: 0.3%;
+    border-radius: 10%;
+}
+
+.item{
+    background-color:papayawhip;
+    color:palevioletred;
+    font-style: bold;
+    text-decoration:none;
+    text-align: center;
+    padding: 3%;
+    margin: 1%; 
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin-top: -1%;
+       
+}
+
+.container1{
+display: flex;
+justify-content: right;
+align-items: center;
+}
+
+.container2{
+    color: palevioletred;
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+    
+}
+.fab{
+    margin: 0.5%;
+    text-decoration: none;
+    color: palevioletred;
+}
