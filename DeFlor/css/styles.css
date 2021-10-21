@@ -1,7 +1,5 @@
 
-title{
-    
-}
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 h1{
     text-align: center;
@@ -10,37 +8,46 @@ h1{
 
 }
 
+body{
+
+}
+
+ main{
+    /* background-image: url('aber.jpeg');  */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 h2{
 color: rgb(134, 33, 104);
 }
 
 h3{
     color:palevioletred;
+    background-color:papayawhip;
+    padding: 0.5%;
 }
 
-header{ background-color: palevioletred;
-color:papayawhip;
-padding: 0.5%;
-border-radius: 3%;
-}
+header{ 
+    background-color: palevioletred;
+    color:papayawhip;
+    padding: 1%;
+    margin: 0%;
 
+}
 .Bar{
-    background-color:rgb(134, 33, 104);
     color: white;
     text-decoration: none;
     padding: 0.5%;
     margin: 0.3%;
     border-radius: 10%;
+    border-right: white;
 }
 
-.item{
-    background-color:papayawhip;
-    color:palevioletred;
-    font-style: bold;
-    text-decoration:none;
+h4{
     text-align: center;
-    padding: 3%;
-    margin: 1%; 
+color: rgb(134, 33, 104);   
+font-size: 200%; 
 }
 
 .container{
@@ -53,19 +60,36 @@ border-radius: 3%;
 
 .container1{
 display: flex;
-justify-content: right;
+justify-content: center;
 align-items: center;
 }
 
 .container2{
     color: palevioletred;
+    background-color:papayawhip;
+    padding: 5%;
     display: flex;
-    margin-top: 20%;
+    margin-top: 5%;
     justify-content: center;
-    
 }
+
 .fab{
     margin: 0.5%;
+    font-size: larger;
     text-decoration: none;
     color: palevioletred;
+}
+
+.container3{
+    display: flex;
+}
+
+
+.torta{
+    display: inline-flex;
+    
+}
+.foto{
+    margin: 1%;
+    margin-right: 2%;
 }
