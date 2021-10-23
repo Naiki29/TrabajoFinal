@@ -4,16 +4,15 @@
 h1{
     text-align: center;
     text-shadow: antiquewhite;
-    
+    font-family: 'Lucida Handwriting';
 
 }
 
 body{
-
+    background-image: url("https://i.pinimg.com/564x/eb/7e/75/eb7e757142924dbdc0d0e4563c8536d8.jpg");
 }
 
  main{
-    /* background-image: url('aber.jpeg');  */
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -26,6 +25,7 @@ h3{
     color:palevioletred;
     background-color:papayawhip;
     padding: 0.5%;
+    font-family: 'Lucida Handwriting';
 }
 
 header{ 
@@ -35,19 +35,30 @@ header{
     margin: 0%;
 
 }
+
 .Bar{
     color: white;
     text-decoration: none;
     padding: 0.5%;
     margin: 0.3%;
-    border-radius: 10%;
+    border-radius: 5%;
     border-right: white;
+}
+
+.Bar:hover {
+    background-color: papayawhip;
+    color: palevioletred;
+    padding: 0.8%;
+
+    transition-property: all;
+    transition-duration: 0,8s;
 }
 
 h4{
     text-align: center;
 color: rgb(134, 33, 104);   
 font-size: 200%; 
+font-family: 'Lucida Handwriting';
 }
 
 .container{
@@ -82,6 +93,9 @@ align-items: center;
 
 .container3{
     display: flex;
+}
+.form-group{
+
 }
 
 
