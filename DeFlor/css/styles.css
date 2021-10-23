@@ -39,7 +39,7 @@ header{
 .Bar{
     color: white;
     text-decoration: none;
-    padding: 0.5%;
+    padding: 0.8%;
     margin: 0.3%;
     border-radius: 5%;
     border-right: white;
@@ -50,16 +50,33 @@ header{
     background-color: papayawhip;
     color: palevioletred;
     padding: 0.8%;
-
     transition-property: all;
     transition-duration: 0,8s;
 }
+/*Mediaqueries para agregar responsiveness al header y a la barra nav*/
+@media screen and (max-width: 500px) {
+header {
+      float: none;
+      display: block;
+      text-align: left;
+
+    }
+}
+@media screen and (max-width: 500px) {
+.container1 a:not(:nth-child(odd)) {display: none;}
+.container2 {
+      float:left;
+      display: inline;
+      
+}
+}
+
 
 h4{
-    text-align: center;
+text-align:center;
 color: rgb(134, 33, 104);   
 font-size: 200%; 
-font-family: 'Lucida Handwriting';
+font-family: 'Festive', cursive;
 }
 
 .container{
@@ -82,6 +99,9 @@ align-items: center;
     display: flex;
     margin-top: 5%;
     justify-content: center;
+    position:relative;
+    height: 0.5rem;
+    
    
 }
 
