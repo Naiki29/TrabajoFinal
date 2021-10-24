@@ -1,12 +1,7 @@
 
 *{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-h1{
-    text-align: center;
-    text-shadow: antiquewhite;
-    font-family: 'Lucida Handwriting';
 
-}
 
 body{
     background-image: url("https://i.pinimg.com/564x/eb/7e/75/eb7e757142924dbdc0d0e4563c8536d8.jpg");
@@ -17,15 +12,51 @@ body{
     margin-right: 5%;
 }
 
+/* footer */
+.container2{
+    color: palevioletred;
+    background-color:papayawhip;
+    padding: 10vh;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    position:relative;
+    height: 5vh;
+    
+}
+
+.fab{
+    margin: 2vh;
+    font-size: 2vh;
+    text-decoration: none;
+    color: palevioletred;
+    text-align: center;
+}
+
+/* Títulos */
+h1{
+    text-align: center;
+    text-shadow: antiquewhite;
+    font-size: 7vh;
+    font-family: 'Dancing Script', cursive;
+}
 h2{
 color: rgb(134, 33, 104);
+
 }
 
 h3{
     color:palevioletred;
     background-color:papayawhip;
     padding: 0.5%;
-    font-family: 'Lucida Handwriting';
+    font-family: 'font-family: 'Dancing Script', cursive;';
+}
+
+h4{
+    text-align:center;
+    color: rgb(134, 33, 104);   
+    font-size: 200%; 
+    font-family: 'Dancing Script', cursive;
 }
 
 header{ 
@@ -35,6 +66,14 @@ header{
     margin: 0%;
 
 }
+/* panel de navegación */
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 
 .Bar{
     color: white;
@@ -72,12 +111,7 @@ header {
 }
 
 
-h4{
-text-align:center;
-color: rgb(134, 33, 104);   
-font-size: 200%; 
-font-family: 'Festive', cursive;
-}
+
 
 .container{
     display: flex;
@@ -86,34 +120,8 @@ font-family: 'Festive', cursive;
        
 }
 
-.container1{
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
-.container2{
-    color: palevioletred;
-    background-color:papayawhip;
-    padding: 5%;
-    display: flex;
-    margin-top: 5%;
-    justify-content: center;
-    position:relative;
-    height: 0.5rem;
-    
-   
-}
-
-.fab{
-    margin: 0.5%;
-    font-size: larger;
-    text-decoration: none;
-    color: palevioletred;
-}
-
-
-
+/* Imágenes y descripcion de tortas */
 
 .imgdescript{
     display: inline-flex;
@@ -125,6 +133,7 @@ align-items: center;
     margin-right: 2%;
 }
 
+/* Texto Mi Historia */
 .historia{
     text-align: justify;
 }
@@ -163,13 +172,11 @@ input[type="submit"]:hover{
 }
 
 
-
 .formulario{
     border-radius: 5px;
-    
-    /* background-image: url('DeFlor/img/bakery.jpg'); */
     padding: 20px;
   }
+
 .fila:after {
     content: "";
     display: table;
