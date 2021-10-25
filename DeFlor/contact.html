@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&display=swap" rel="stylesheet"> 
-    
+    <script src="js/script.js"></script> 
     <title>Deflor Pastelería</title>
 </head>
 
@@ -44,7 +44,7 @@
         <h2>Formulario de contacto</h2>
 
         <div class="formulario">
-            <form>
+            <form id="formulario" role="form" onsubmit=validateForm()>
 
                 <div class="filas">
                     <div class="columna1">
@@ -52,7 +52,7 @@
                     </div>
                     
                     <div class = "columna2">
-                        <input type="text" id = "nombre" placeholder="Coloque su nombre aqui">
+                        <input type="text" id = "nombre" placeholder="Coloque su nombre aqui" >
                     </div>
 
                 </div>
@@ -73,7 +73,7 @@
                     </div>
                     
                     <div class="email">
-                        <input type="text" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                        <input type="text" id="mail" placeholder="nombre@ejemplo.com">
                     </div>
                 </div>
 
@@ -95,6 +95,7 @@
             </form>
         </div>
     </main>
+    
 </body>
 <footer class="container2">
     <a class="fab fa-instagram" href="https://www.instagram.com/deflor.pasteleria/?hl=es-la" target="_blank"></a>
